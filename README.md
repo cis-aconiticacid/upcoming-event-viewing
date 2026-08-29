@@ -1,6 +1,6 @@
 # upcoming_event_viewing
 
-A local seminar/event calendar built on vdir + khal. Events from multiple sources are stored in a single vdir and surfaced via khal as a separate `seminars` calendar, isolated from the main personal calendar.
+A local seminar/event calendar built on vdir + khal. Events from multiple sources are stored in a single vdir and surfaced via khal as a separate `seminars` calendar, isolated from the main personal calendar. Usually work with my planner
 
 ## Structure
 
