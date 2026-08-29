@@ -1,0 +1,16 @@
+{
+    "csv_file": "seminars.csv",
+    "event_type": "recurring",
+    "source_name": "Math Seminars Spring 2026",
+    "source_url": "https://math.wisc.edu/seminars/",
+    "semester_start": "2026-01-20",
+    "semester_end": "2026-05-10",
+    "mapping": {
+        "SUMMARY":      "{Seminar}",
+        "LOCATION":     "{Location}",
+        "DESCRIPTION":  "Organizers: {Organizers}",
+        "RRULE_BYDAY":  "{Day}",
+        "RRULE_START":  "regex:{Time}:^(\\d+:\\d+(?:am|pm)):1",
+        "RRULE_END":    "regex:{Time}:-(\\d+:\\d+(?:am|pm))$:1"
+    }
+}

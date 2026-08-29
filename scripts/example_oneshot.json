@@ -1,0 +1,14 @@
+{
+    "csv_file": "events.csv",
+    "event_type": "oneshot",
+    "source_name": "ML+X Forum Spring 2026",
+    "source_url": "https://mlx.wisc.edu/forum/",
+    "mapping": {
+        "SUMMARY":       "{Title}",
+        "LOCATION":      "{Location}",
+        "DESCRIPTION":   "{Description}",
+        "DTSTART_DATE":  "{Date}",
+        "DTSTART_TIME":  "{StartTime}",
+        "DTEND_TIME":    "{EndTime}"
+    }
+}
